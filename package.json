@@ -5,7 +5,7 @@
     "start": "node streams/api/streams.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.45.3",
-    "express": "^4.19.2"
+    "express": "^4.21.2",
+    "@supabase/supabase-js": "^2.45.3"
   }
 }
