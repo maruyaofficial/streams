@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/streams.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/api/streams", "dest": "/api/streams.js" },
+    { "src": "/api/streams/full", "dest": "/api/streams.js" }
+  ]
+}
